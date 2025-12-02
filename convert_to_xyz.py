@@ -18,7 +18,7 @@ trimesh.util.attach_to_log()
 # Папка, где лежат мои OBJ-файлы (ОБНОВИ ПУТЬ)
 INPUT_FOLDER = "path_to_my_input_folder" 
 # Папка, куда будут сохранены облака точек (ОБНОВИ ПУТЬ)
-OUTPUT_FOLDER = "path_to_my_input_folder"
+OUTPUT_FOLDER = "path_to_my_output_folder"
 # Желаемое количество точек для сэмплирования с каждого объекта 
 N_POINTS = 16384 #подобрано под стандарт PointAttN
 
@@ -106,3 +106,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
