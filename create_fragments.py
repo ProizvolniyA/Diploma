@@ -11,10 +11,10 @@ import numpy as np
 
 # --- КОНФИГУРАЦИОННЫЕ ПАРАМЕТРЫ ---
 
-# Папка с полными облаками (16384)
-INPUT_FOLDER = "D:\Armen\All Clouds"  
-# Папка для осколков (2048)
-OUTPUT_FOLDER = "D:\Armen\Fragments" 
+# Папка с полными облаками (16384) (ОБНОВИ ПУТЬ)
+INPUT_FOLDER = "path_to_my_input_folder"  
+# Папка для осколков (2048) (ОБНОВИ ПУТЬ)
+OUTPUT_FOLDER = "path_to_my_output_folder" 
 TARGET_POINTS = 2048  # Сколько точек оставить в "осколке" (постандарту PointAttN)
 
 
@@ -87,4 +87,5 @@ def main():
     print("✅ Готово! Датасет разрушенных артефактов создан.")
 
 if __name__ == "__main__":
+
     main()
