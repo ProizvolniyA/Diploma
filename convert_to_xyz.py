@@ -52,7 +52,7 @@ def process_obj_to_xyz(input_path, output_path, n_points):
         # Очистка и "лечение"
         mesh.process() # process=True удаляет дубликаты вершин и вырожденные грани
         
-        # Г. Исправление нормалей (возможно перепутанных)
+        # Исправление нормалей (возможно перепутанных)
         mesh.fix_normals()
         
         
@@ -104,4 +104,5 @@ def main():
     print(f"\n✅ Готово! Успешно обработано: {success_count} из {len(obj_files)}")
 
 if __name__ == "__main__":
+
     main()
