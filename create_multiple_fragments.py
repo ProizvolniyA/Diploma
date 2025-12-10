@@ -13,7 +13,7 @@ import numpy as np
 
 INPUT_FOLDER = "path_to_my_input_folder"   # Папка с полными облаками (16384) (ОБНОВИ ПУТЬ)
 OUTPUT_FOLDER = "path_to_my_output_folder" # Папка для осколков (2048) (ОБНОВИ ПУТЬ)
-FRAGMENT_SIZE = 2048   # Размер каждого отдельного куска
+FRAGMENT_SIZE = 3072   # Размер каждого отдельного куска
 FINAL_SIZE = 2048      # Итоговый размер выходного облака
 
 """Загружает XYZ файл в массив numpy."""
@@ -107,4 +107,5 @@ def main():
     print("✅ Готово! Датасет с двойными фрагментами создан.")
 
 if __name__ == "__main__":
+
     main()
